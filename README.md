@@ -22,4 +22,30 @@ Accès administrateur à la machine Ubuntu pour l'installation de Wazuh.
 
 ![groups](https://github.com/user-attachments/assets/54f816f0-1fcc-46dc-991c-135ac44c93f4)
 
+# 3. Installation des dépendances
+
+# 3.1. Installation de Docker
+![Image](https://github.com/user-attachments/assets/667db6cd-ec75-431d-8839-158a9125cf3c)
+
+# 3.2. Installation de Wazuh sur Ubuntu
+
+# Préparation du système
+
+sudo apt update && sudo apt upgrade 
+
+# Installer Wazuh .
+
+curl -sO https://packages.wazuh.com/4.7/wazuh-install.sh && sudo bash ./wazuh-install.sh -a
+![Image](https://github.com/user-attachments/assets/0813fb6d-869c-4b40-9427-d829157783c1)
+
+# Verification de fonctionnemennt
+
+![Image](https://github.com/user-attachments/assets/5b4c177e-a505-4bd7-9120-3e3dddab8806) 
+
+
+
+
+
+
+
 
